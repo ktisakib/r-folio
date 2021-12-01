@@ -1,11 +1,11 @@
 const AreYouLostBabyGirl = () => {
   return (
-    <div className='flex '>
-      <div className='h-screen w-1/12 duration-300 transition-all  transform hover:scale-y-50 hover:skew-y-12 bg-blue-600'></div>
-      <div className='h-screen w-1/12 duration-300 transition-all  transform hover:scale-y-50 hover:skew-y-12 bg-pink-600'></div>
-      <div className='h-screen w-1/12 duration-300 transition-all  transform hover:scale-y-50 hover:skew-y-12 bg-green-600'></div>
-      <div className='h-screen w-1/12 duration-300 transition-all  transform hover:scale-y-50  hover:skew-y-12  bg-yellow-600'></div>
-      <div className='h-screen w-1/12 duration-300 transition-all  transform hover:scale-y-50  hover:skew-y-12 bg-red-600'></div>
+      <div className='flex  '>
+      <div className='h-screen hover:blur w-1/12 duration-300 transition-all  transform ease-linear hover:scale-y-50 hover:skew-y-12 bg-blue-600'></div>
+      <div className='h-screen hover:blur w-1/12 duration-300 transition-all  transform ease-linear hover:scale-y-50 hover:skew-y-12 bg-pink-600'></div>
+      <div className='h-screen hover:blur w-1/12 duration-300 transition-all  transform ease-linear hover:scale-y-50 hover:skew-y-12 bg-green-600'></div>
+      <div className='h-screen hover:blur w-1/12 duration-300 transition-all  transform ease-linear hover:scale-y-50  hover:skew-y-12  bg-yellow-600'></div>
+      <div className='h-screen hover:blur w-1/12 duration-300 transition-all  transform ease-linear hover:scale-y-50  hover:skew-y-12 bg-red-600'></div>
 
       <div className='flex text-center flex-col text-lg bg-gray-500 max-w-max m-auto h-screen p-6 justify-center items-center '>
         <svg
@@ -24,11 +24,11 @@ const AreYouLostBabyGirl = () => {
           <a href='/'>Back</a>
         </h1>
       </div>
-      <div className='h-screen w-1/12 duration-300 transition-all  transform hover:scale-y-50  hover:-skew-y-12 bg-red-600'></div>
-      <div className='h-screen w-1/12 duration-300 transition-all  transform hover:scale-y-50  hover:-skew-y-12 bg-yellow-600'></div>
-      <div className='h-screen w-1/12 duration-300 transition-all  transform hover:scale-y-50  hover:-skew-y-12 bg-green-600'></div>
-      <div className='h-screen w-1/12 duration-300 transition-all  transform hover:scale-y-50  hover:-skew-y-12 bg-pink-600'></div>
-      <div className='h-screen w-1/12 duration-300 transition-all  transform hover:scale-y-50  hover:-skew-y-12 bg-blue-600'></div>
+      <div className='h-screen hover:blur w-1/12 duration-300 transition-all  transform ease-linear hover:scale-y-50  hover:-skew-y-12 bg-red-600'></div>
+      <div className='h-screen hover:blur w-1/12 duration-300 transition-all  transform ease-linear hover:scale-y-50  hover:-skew-y-12 bg-yellow-600'></div>
+      <div className='h-screen hover:blur w-1/12 duration-300 transition-all  transform ease-linear hover:scale-y-50  hover:-skew-y-12 bg-green-600'></div>
+      <div className='h-screen hover:blur w-1/12 duration-300 transition-all  transform ease-linear hover:scale-y-50  hover:-skew-y-12 bg-pink-600'></div>
+      <div className='h-screen hover:blur w-1/12 duration-300 transition-all  transform ease-linear hover:scale-y-50  hover:-skew-y-12 bg-blue-600'></div>
     </div>
   );
 };
