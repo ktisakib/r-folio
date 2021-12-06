@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Nav = () => {
   return (
-    <nav className='flex   w-full absolute  z-20 bg-white bg-opacity-5 filter backdrop-blur-[6px] items-center justify-between md:h-[110px] h-[40px]   '>
+    <nav className='flex   w-full absolute  z-20 bg-white bg-opacity-5 filter backdrop-blur-[6px] items-center justify-between lg:h-[100px] xl:h-28 h-[40px]   '>
       {/* signature-left */}
       <div className='sm:px-10 hover:scale-105 ease-in-out duration-1000 '>
         <Link href='/' className=''>

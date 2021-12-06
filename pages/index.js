@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className='flex w-full flex-col    flex-1 bg-black     '>
         <Nav />
-        <Hero/>
+        <Hero />
       </main>
 
       {/* <footer className='flex items-center justify-center w-full h-24 border-t'>
