@@ -1,30 +1,31 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
+import About from "../components/About"
+import About1 from "../components/About1"
+import About2 from "../components/About2"
 
 export default function Home() {
   return (
-    <div className='flex flex-col  items-center justify-center min-h-screen space-y-5'>
+    <div className='flex flex-col    min-h-screen space-y-5'>
       <Head>
         <title>Create Next App</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='flex w-full flex-col    flex-1 bg-black     '>
+      <main className=' bg-[#FF4656]'>
+        <img
+          src='/img/Svgs/outlaw.svg'
+          className='absolute lg:left-[75.4px] lg:top-[212.1px] lg:w-72  w-10 left-9 top-20  '
+        
+        />
         <Nav />
         <Hero />
-      </main>
+        <About />
+        <About1 />
+        <About2 />
 
-      {/* <footer className='flex items-center justify-center w-full h-24 border-t'>
-        <a
-          className='flex items-center justify-center'
-          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-          target='_blank'
-          rel='noopener noreferrer'>
-          Powered by{" "}
-          <img src='/vercel.svg' alt='Vercel Logo' className='h-4 ml-2' />
-        </a>
-      </footer> */}
+      </main>
     </div>
   );
 }

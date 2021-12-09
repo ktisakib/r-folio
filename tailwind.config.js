@@ -4,24 +4,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      maxWidth: {
-        "8xl": "90rem",
-      },
       backgroundImage: {
-        "hero-pattern": "url('/img/hero.png')",
-      },
-      backgroundSize: {
-        auto: "auto",
-        cover: "cover",
-        contain: "contain",
-        "50%": "50%",
-        16: "2rem",
+        hero: "url('/img/hero/hero.png')",
       },
     },
   },
   variants: {
     extend: {
-      backgroundSize: ["hover", "focus"],
       backgroundImage: ["hover", "focus"],
     },
   },
